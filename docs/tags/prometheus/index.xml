@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prometheus on 铁甲依然在</title>
-    <link>https://example.org/tags/prometheus/</link>
+    <link>https://wenliu2.github.io/public-blog/tags/prometheus/</link>
     <description>Recent content in Prometheus on 铁甲依然在</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Tue, 02 Apr 2019 13:40:34 +0800</lastBuildDate>
     
-	<atom:link href="https://example.org/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wenliu2.github.io/public-blog/tags/prometheus/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Install prometheus-operator Manually</title>
-      <link>https://example.org/2019/04/install-prometheus-operator-manually/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/04/install-prometheus-operator-manually/</link>
       <pubDate>Tue, 02 Apr 2019 13:40:34 +0800</pubDate>
       
-      <guid>https://example.org/2019/04/install-prometheus-operator-manually/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/install-prometheus-operator-manually/</guid>
       <description>A k8s is ready, but it is behind corp firewall and has no internet access.
  Can&amp;rsquo;t install prometheus-operator with helm automatically.
  This guide explains how to install prometheus-operator in a k8s cluster without internet access.

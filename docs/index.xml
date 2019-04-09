@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>铁甲依然在</title>
-    <link>https://example.org/</link>
+    <link>https://wenliu2.github.io/public-blog/</link>
     <description>Recent content on 铁甲依然在</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Tue, 02 Apr 2019 15:53:24 +0800</lastBuildDate>
     
-	<atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wenliu2.github.io/public-blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Issue   Websocket Closed</title>
-      <link>https://example.org/2019/04/issue-websocket-closed/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/</link>
       <pubDate>Tue, 02 Apr 2019 15:53:24 +0800</pubDate>
       
-      <guid>https://example.org/2019/04/issue-websocket-closed/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/</guid>
       <description>https://medium.com/@del680202/%E6%88%91%E5%9C%A8nginx-ingress-reload%E4%B8%8B%E6%8E%A1%E7%9A%84%E5%9D%91-6c0dba53838e</description>
     </item>
     
     <item>
       <title>Install prometheus-operator Manually</title>
-      <link>https://example.org/2019/04/install-prometheus-operator-manually/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/04/install-prometheus-operator-manually/</link>
       <pubDate>Tue, 02 Apr 2019 13:40:34 +0800</pubDate>
       
-      <guid>https://example.org/2019/04/install-prometheus-operator-manually/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/install-prometheus-operator-manually/</guid>
       <description>A k8s is ready, but it is behind corp firewall and has no internet access.
  Can&amp;rsquo;t install prometheus-operator with helm automatically.
  This guide explains how to install prometheus-operator in a k8s cluster without internet access.
@@ -36,10 +36,10 @@ mkdir $PWD/charts cd charts helm fetch --untar stable/prometheus-operator  This 
     
     <item>
       <title>How to Change kube-apiserver Parameters</title>
-      <link>https://example.org/2019/04/how-to-change-kube-apiserver-parameters/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/04/how-to-change-kube-apiserver-parameters/</link>
       <pubDate>Mon, 01 Apr 2019 15:15:05 +0800</pubDate>
       
-      <guid>https://example.org/2019/04/how-to-change-kube-apiserver-parameters/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/how-to-change-kube-apiserver-parameters/</guid>
       <description>(for k8s cluster provisioned with kubeadm)
 SSH to k8s master node, edit file: /etc/kubernetes/manifests/kube-apiserver.json.
 kube-apiserver pod will restart automatically after saving.</description>
@@ -47,48 +47,48 @@ kube-apiserver pod will restart automatically after saving.</description>
     
     <item>
       <title>Verify DNS Is Working</title>
-      <link>https://example.org/2019/04/verify-dns-is-working/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/04/verify-dns-is-working/</link>
       <pubDate>Mon, 01 Apr 2019 13:55:35 +0800</pubDate>
       
-      <guid>https://example.org/2019/04/verify-dns-is-working/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/verify-dns-is-working/</guid>
       <description>1. On the Kubernetes master (if you used an HA deployment, select the primary master), set up a test environment by running the following command:kubectl create -f ./busybox.v1.yaml
 apiVersion: extensions/v1beta1 kind: Deployment metadata: name: busybox spec: replicas: 1 selector: matchLabels: app: busybox template: metadata: labels: app: busybox spec: containers: - name: busybox image: busybox:1.28.3 command: - sleep - &amp;quot;3600&amp;quot; imagePullPolicy: IfNotPresent restartPolicy: Always  2. Verify that the test pod is running by executing the following command:</description>
     </item>
     
     <item>
       <title>Install k8s</title>
-      <link>https://example.org/2019/04/install-k8s/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/04/install-k8s/</link>
       <pubDate>Mon, 01 Apr 2019 09:26:08 +0800</pubDate>
       
-      <guid>https://example.org/2019/04/install-k8s/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/install-k8s/</guid>
       <description>Prerequisite  Install Ubuntu16.04 Install docker  Install kubeadm apt-get update &amp;amp;&amp;amp; apt-get install -y apt-transport-https curl curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add - cat &amp;lt;&amp;lt;EOF &amp;gt;/etc/apt/sources.list.d/kubernetes.list deb https://apt.kubernetes.io/ kubernetes-xenial main EOF apt-get update apt-get install -y kubelet kubeadm kubectl apt-mark hold kubelet kubeadm kubectl  Creating a single master cluster with kubeadm Initializing your master Run as root(use calico as network addon): kubeadm init --pod-network-cidr=192.168.0.0/16 The output looks like:</description>
     </item>
     
     <item>
       <title>Yaml Syntax</title>
-      <link>https://example.org/2019/03/yaml-syntax/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/03/yaml-syntax/</link>
       <pubDate>Mon, 25 Mar 2019 09:11:07 +0800</pubDate>
       
-      <guid>https://example.org/2019/03/yaml-syntax/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/03/yaml-syntax/</guid>
       <description>Scalars Scalars are a pretty basic concept. They are the strings and numbers that make up the data on the page. A scalar could be a boolean property, like Yes, integer (number) such as 5, or a string of text, like a sentence or the title of your website.
 Scalars are often called variables in programming. If you were making a list of types of animals, they would be the names given to those animals.</description>
     </item>
     
     <item>
       <title>What&#39;s Istio?</title>
-      <link>https://example.org/2019/03/whats-istio/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/03/whats-istio/</link>
       <pubDate>Fri, 22 Mar 2019 15:16:16 +0800</pubDate>
       
-      <guid>https://example.org/2019/03/whats-istio/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/03/whats-istio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Service Mesh vs API Gateway</title>
-      <link>https://example.org/2019/03/service-mesh-vs-api-gateway/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/03/service-mesh-vs-api-gateway/</link>
       <pubDate>Thu, 21 Mar 2019 16:22:11 +0800</pubDate>
       
-      <guid>https://example.org/2019/03/service-mesh-vs-api-gateway/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/03/service-mesh-vs-api-gateway/</guid>
       <description>1. What&amp;rsquo;s service mesh? service mesh &amp;hellip;
 2. What&amp;rsquo;s API Gateway API Gateway features The key objective of using API Gateway is to expose your (micro) services as managed APIs. So, the API or Edge services that we develop at the API Gateway layer serves a specific business functionality.
  API/Edge services call the downstream (composite and atomic) microservices and contain the business logic that creates compositions/mashups of multiple downstream services.</description>
@@ -96,19 +96,19 @@ Scalars are often called variables in programming. If you were making a list of 
     
     <item>
       <title>Install Vagrant</title>
-      <link>https://example.org/2019/03/install-vagrant/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/03/install-vagrant/</link>
       <pubDate>Thu, 21 Mar 2019 15:50:14 +0800</pubDate>
       
-      <guid>https://example.org/2019/03/install-vagrant/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/03/install-vagrant/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Why Vagrant?</title>
-      <link>https://example.org/2019/03/why-vagrant/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/03/why-vagrant/</link>
       <pubDate>Thu, 21 Mar 2019 15:39:04 +0800</pubDate>
       
-      <guid>https://example.org/2019/03/why-vagrant/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/03/why-vagrant/</guid>
       <description>Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
 To achieve its magic, Vagrant stands on the shoulders of giants. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine.</description>
     </item>

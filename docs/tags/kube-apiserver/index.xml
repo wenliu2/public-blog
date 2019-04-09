@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kube Apiserver on 铁甲依然在</title>
-    <link>https://example.org/tags/kube-apiserver/</link>
+    <link>https://wenliu2.github.io/public-blog/tags/kube-apiserver/</link>
     <description>Recent content in Kube Apiserver on 铁甲依然在</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
     <lastBuildDate>Mon, 01 Apr 2019 15:15:05 +0800</lastBuildDate>
     
-	<atom:link href="https://example.org/tags/kube-apiserver/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://wenliu2.github.io/public-blog/tags/kube-apiserver/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How to Change kube-apiserver Parameters</title>
-      <link>https://example.org/2019/04/how-to-change-kube-apiserver-parameters/</link>
+      <link>https://wenliu2.github.io/public-blog/2019/04/how-to-change-kube-apiserver-parameters/</link>
       <pubDate>Mon, 01 Apr 2019 15:15:05 +0800</pubDate>
       
-      <guid>https://example.org/2019/04/how-to-change-kube-apiserver-parameters/</guid>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/how-to-change-kube-apiserver-parameters/</guid>
       <description>(for k8s cluster provisioned with kubeadm)
 SSH to k8s master node, edit file: /etc/kubernetes/manifests/kube-apiserver.json.
 kube-apiserver pod will restart automatically after saving.</description>
