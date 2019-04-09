@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Service Mesh on 铁甲依然在</title>
+    <link>https://example.org/tags/service-mesh/</link>
+    <description>Recent content in Service Mesh on 铁甲依然在</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Fri, 22 Mar 2019 15:16:16 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/service-mesh/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What&#39;s Istio?</title>
+      <link>https://example.org/2019/03/whats-istio/</link>
+      <pubDate>Fri, 22 Mar 2019 15:16:16 +0800</pubDate>
+      
+      <guid>https://example.org/2019/03/whats-istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Mesh vs API Gateway</title>
+      <link>https://example.org/2019/03/service-mesh-vs-api-gateway/</link>
+      <pubDate>Thu, 21 Mar 2019 16:22:11 +0800</pubDate>
+      
+      <guid>https://example.org/2019/03/service-mesh-vs-api-gateway/</guid>
+      <description>1. What&amp;rsquo;s service mesh? service mesh &amp;hellip;
+2. What&amp;rsquo;s API Gateway API Gateway features The key objective of using API Gateway is to expose your (micro) services as managed APIs. So, the API or Edge services that we develop at the API Gateway layer serves a specific business functionality.
+ API/Edge services call the downstream (composite and atomic) microservices and contain the business logic that creates compositions/mashups of multiple downstream services.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vagrant on 铁甲依然在</title>
+    <link>https://example.org/tags/vagrant/</link>
+    <description>Recent content in Vagrant on 铁甲依然在</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>cn</language>
+    <lastBuildDate>Thu, 21 Mar 2019 15:50:14 +0800</lastBuildDate>
+    
+	<atom:link href="https://example.org/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Install Vagrant</title>
+      <link>https://example.org/2019/03/install-vagrant/</link>
+      <pubDate>Thu, 21 Mar 2019 15:50:14 +0800</pubDate>
+      
+      <guid>https://example.org/2019/03/install-vagrant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Why Vagrant?</title>
+      <link>https://example.org/2019/03/why-vagrant/</link>
+      <pubDate>Thu, 21 Mar 2019 15:39:04 +0800</pubDate>
+      
+      <guid>https://example.org/2019/03/why-vagrant/</guid>
+      <description>Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
+To achieve its magic, Vagrant stands on the shoulders of giants. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine.</description>
+    </item>
+    
+  </channel>
+</rss>

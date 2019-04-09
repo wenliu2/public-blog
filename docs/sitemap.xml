@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.org/2019/04/issue-websocket-closed/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/04/install-prometheus-operator-manually/</loc>
+    <lastmod>2019-04-02T13:40:34+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/04/how-to-change-kube-apiserver-parameters/</loc>
+    <lastmod>2019-04-01T15:15:05+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/04/verify-dns-is-working/</loc>
+    <lastmod>2019-04-01T13:55:35+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/04/install-k8s/</loc>
+    <lastmod>2019-04-01T09:26:08+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/03/yaml-syntax/</loc>
+    <lastmod>2019-03-25T09:11:07+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/03/whats-istio/</loc>
+    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/03/service-mesh-vs-api-gateway/</loc>
+    <lastmod>2019-03-21T16:22:11+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/03/install-vagrant/</loc>
+    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/2019/03/why-vagrant/</loc>
+    <lastmod>2019-03-21T15:39:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/api-gateway/</loc>
+    <lastmod>2019-03-21T16:22:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/architecture/</loc>
+    <lastmod>2019-03-21T16:22:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/archives/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/development/</loc>
+    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/istio/</loc>
+    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/istio/</loc>
+    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/k8s/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/k8s/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/kube-apiserver/</loc>
+    <lastmod>2019-04-01T15:15:05+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/nginx-ingress-controller/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/post/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/prometheus/</loc>
+    <lastmod>2019-04-02T13:40:34+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/service/</loc>
+    <lastmod>2019-03-21T16:22:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/service-mesh/</loc>
+    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/</loc>
+    <lastmod>2019-03-21T16:22:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/technology/</loc>
+    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/technology/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/vagrant/</loc>
+    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/vagrant/</loc>
+    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/websocket/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/tags/yaml/</loc>
+    <lastmod>2019-03-25T09:11:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/categories/yaml/</loc>
+    <lastmod>2019-03-25T09:11:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://example.org/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
