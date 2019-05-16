@@ -532,15 +532,19 @@ kubectl -n ns-monitor port-forward svc/monitor-prometheus-operato-prometheus 909
           <div class="media">
             
             <div class="media-body">
-              <a class="link-unstyled" href="https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/">
-                <h3 class="media-heading">Issue   Websocket Closed</h3>
+              <a class="link-unstyled" href="https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed-in-k8s/">
+                <h3 class="media-heading">Issue: Websocket closed in K8s</h3>
               </a>
               <span class="media-meta">
                 <span class="media-date text-small">
                   Apr 4, 2019
                 </span>
               </span>
-              <div class="media-content hide-xs font-merryweather">https://medium.com/@del680202/%E6%88%91%E5%9C%A8nginx-ingress-reload%E4%B8%8B%E6%8E%A1%E7%9A%84%E5%9D%91-6c0dba53838e</div>
+              <div class="media-content hide-xs font-merryweather">Links: https://medium.com/@del680202/%E6%88%91%E5%9C%A8nginx-ingress-reload%E4%B8%8B%E6%8E%A1%E7%9A%84%E5%9D%91-6c0dba53838e
+Change 2 configuration of nginx controller. 1. enable dynamic config reload flag This flag will enable the nginx configuration reloading only happens when ingress changed. Other configuration change(like create new pods) will not affect nginx. Without nginx reload, the websocket connection will not be shutdown.
+execute below command:
+kubectl -n ingress-nginx edit daemonset/nginx-ingress-controller -o yaml  make sure the args like below:
+... containers: - args: - /nginx-ingress-controller - --default-backend-service=$(POD_NAMESPACE)/default-http-backend - --configmap=$(POD_NAMESPACE)/nginx-configuration - --tcp-services-configmap=$(POD_NAMESPACE)/tcp-services - --udp-services-configmap=$(POD_NAMESPACE)/udp-services - --annotations-prefix=nginx.</div>
             </div>
             <div style="clear:both;"></div>
             <hr>

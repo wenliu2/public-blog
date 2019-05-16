@@ -8,7 +8,7 @@
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/</loc>
+    <loc>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed-in-k8s/</loc>
     <lastmod>2019-04-02T15:53:24+08:00</lastmod>
   </url>
   
@@ -86,25 +86,25 @@
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/categories/istio/</loc>
-    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://wenliu2.github.io/public-blog/tags/istio/</loc>
     <lastmod>2019-03-22T15:16:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/categories/k8s/</loc>
-    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
+    <loc>https://wenliu2.github.io/public-blog/categories/istio/</loc>
+    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wenliu2.github.io/public-blog/tags/k8s/</loc>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wenliu2.github.io/public-blog/categories/k8s/</loc>
     <lastmod>2019-04-12T08:27:11+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -152,13 +152,19 @@
   </url>
   
   <url>
+    <loc>https://wenliu2.github.io/public-blog/tags/technology/</loc>
+    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://wenliu2.github.io/public-blog/categories/technology/</loc>
     <lastmod>2019-04-12T08:27:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/technology/</loc>
+    <loc>https://wenliu2.github.io/public-blog/tags/vagrant/</loc>
     <lastmod>2019-03-21T15:50:14+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -170,25 +176,19 @@
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/vagrant/</loc>
-    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://wenliu2.github.io/public-blog/tags/websocket/</loc>
     <lastmod>2019-04-02T15:53:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/categories/yaml/</loc>
+    <loc>https://wenliu2.github.io/public-blog/tags/yaml/</loc>
     <lastmod>2019-03-25T09:11:07+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/yaml/</loc>
+    <loc>https://wenliu2.github.io/public-blog/categories/yaml/</loc>
     <lastmod>2019-03-25T09:11:07+08:00</lastmod>
     <priority>0</priority>
   </url>

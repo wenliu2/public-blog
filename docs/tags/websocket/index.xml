@@ -12,12 +12,16 @@
     
     
     <item>
-      <title>Issue   Websocket Closed</title>
-      <link>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/</link>
+      <title>Issue: Websocket closed in K8s</title>
+      <link>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed-in-k8s/</link>
       <pubDate>Tue, 02 Apr 2019 15:53:24 +0800</pubDate>
       
-      <guid>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/</guid>
-      <description>https://medium.com/@del680202/%E6%88%91%E5%9C%A8nginx-ingress-reload%E4%B8%8B%E6%8E%A1%E7%9A%84%E5%9D%91-6c0dba53838e</description>
+      <guid>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed-in-k8s/</guid>
+      <description>Links: https://medium.com/@del680202/%E6%88%91%E5%9C%A8nginx-ingress-reload%E4%B8%8B%E6%8E%A1%E7%9A%84%E5%9D%91-6c0dba53838e
+Change 2 configuration of nginx controller. 1. enable dynamic config reload flag This flag will enable the nginx configuration reloading only happens when ingress changed. Other configuration change(like create new pods) will not affect nginx. Without nginx reload, the websocket connection will not be shutdown.
+execute below command:
+kubectl -n ingress-nginx edit daemonset/nginx-ingress-controller -o yaml  make sure the args like below:
+... containers: - args: - /nginx-ingress-controller - --default-backend-service=$(POD_NAMESPACE)/default-http-backend - --configmap=$(POD_NAMESPACE)/nginx-configuration - --tcp-services-configmap=$(POD_NAMESPACE)/tcp-services - --udp-services-configmap=$(POD_NAMESPACE)/udp-services - --annotations-prefix=nginx.</description>
     </item>
     
   </channel>
