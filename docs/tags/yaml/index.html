@@ -321,6 +321,27 @@ Scalars are often called variables in programming. If you were making a list of 
           <div class="media">
             
             <div class="media-body">
+              <a class="link-unstyled" href="https://wenliu2.github.io/public-blog/2019/04/monitor-prometheus-misc/">
+                <h3 class="media-heading">Monitor Prometheus Misc</h3>
+              </a>
+              <span class="media-meta">
+                <span class="media-date text-small">
+                  Apr 4, 2019
+                </span>
+              </span>
+              <div class="media-content hide-xs font-merryweather"> check Prometheus configuration
+get prometheus -n ns-monitor monitor-prometheus-operato-prometheus -o yaml  check operator log
+kubectl logs -n ns-monitor -f deployment/monitor-prometheus-operato-operator  check operator yaml
+kubectl -n ns-monitor get deployment/monitor-prometheus-operato-operator -o yaml  proxy prometheus
+kubectl -n ns-monitor port-forward svc/monitor-prometheus-operato-prometheus 9090  </div>
+            </div>
+            <div style="clear:both;"></div>
+            <hr>
+          </div>
+        
+          <div class="media">
+            
+            <div class="media-body">
               <a class="link-unstyled" href="https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/">
                 <h3 class="media-heading">Issue   Websocket Closed</h3>
               </a>
@@ -482,24 +503,6 @@ Scalars are often called variables in programming. If you were making a list of 
             <hr>
           </div>
         
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="https://wenliu2.github.io/public-blog/2019/03/why-vagrant/">
-                <h3 class="media-heading">Why Vagrant?</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2019
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather">Vagrant provides easy to configure, reproducible, and portable work environments built on top of industry-standard technology and controlled by a single consistent workflow to help maximize the productivity and flexibility of you and your team.
-To achieve its magic, Vagrant stands on the shoulders of giants. Machines are provisioned on top of VirtualBox, VMware, AWS, or any other provider. Then, industry-standard provisioning tools such as shell scripts, Chef, or Puppet, can automatically install and configure software on the virtual machine.</div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
       </div>
     </div>
     <div class="modal-footer">
@@ -507,7 +510,7 @@ To achieve its magic, Vagrant stands on the shoulders of giants. Machines are pr
          data-message-zero=""
          data-message-one=""
          data-message-other="">
-         10 posts found
+         11 posts found
       </p>
     </div>
   </div>

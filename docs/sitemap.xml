@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://wenliu2.github.io/public-blog/2019/04/monitor-prometheus-misc/</loc>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://wenliu2.github.io/public-blog/2019/04/issue-websocket-closed/</loc>
     <lastmod>2019-04-02T15:53:24+08:00</lastmod>
   </url>
@@ -81,26 +86,26 @@
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/istio/</loc>
-    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://wenliu2.github.io/public-blog/categories/istio/</loc>
     <lastmod>2019-03-22T15:16:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/k8s/</loc>
-    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <loc>https://wenliu2.github.io/public-blog/tags/istio/</loc>
+    <lastmod>2019-03-22T15:16:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wenliu2.github.io/public-blog/categories/k8s/</loc>
-    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://wenliu2.github.io/public-blog/tags/k8s/</loc>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -118,13 +123,13 @@
   
   <url>
     <loc>https://wenliu2.github.io/public-blog/post/</loc>
-    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://wenliu2.github.io/public-blog/tags/prometheus/</loc>
-    <lastmod>2019-04-02T13:40:34+08:00</lastmod>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -147,19 +152,13 @@
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/technology/</loc>
-    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://wenliu2.github.io/public-blog/categories/technology/</loc>
-    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/vagrant/</loc>
+    <loc>https://wenliu2.github.io/public-blog/tags/technology/</loc>
     <lastmod>2019-03-21T15:50:14+08:00</lastmod>
     <priority>0</priority>
   </url>
@@ -171,14 +170,14 @@
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/websocket/</loc>
-    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <loc>https://wenliu2.github.io/public-blog/tags/vagrant/</loc>
+    <lastmod>2019-03-21T15:50:14+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://wenliu2.github.io/public-blog/tags/yaml/</loc>
-    <lastmod>2019-03-25T09:11:07+08:00</lastmod>
+    <loc>https://wenliu2.github.io/public-blog/tags/websocket/</loc>
+    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -189,8 +188,14 @@
   </url>
   
   <url>
+    <loc>https://wenliu2.github.io/public-blog/tags/yaml/</loc>
+    <lastmod>2019-03-25T09:11:07+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://wenliu2.github.io/public-blog/</loc>
-    <lastmod>2019-04-02T15:53:24+08:00</lastmod>
+    <lastmod>2019-04-12T08:27:11+08:00</lastmod>
     <priority>0</priority>
   </url>
   

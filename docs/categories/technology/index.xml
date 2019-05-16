@@ -6,10 +6,23 @@
     <description>Recent content in Technology on 铁甲依然在</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>cn</language>
-    <lastBuildDate>Tue, 02 Apr 2019 15:53:24 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 12 Apr 2019 08:27:11 +0800</lastBuildDate>
     
 	<atom:link href="https://wenliu2.github.io/public-blog/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Monitor Prometheus Misc</title>
+      <link>https://wenliu2.github.io/public-blog/2019/04/monitor-prometheus-misc/</link>
+      <pubDate>Fri, 12 Apr 2019 08:27:11 +0800</pubDate>
+      
+      <guid>https://wenliu2.github.io/public-blog/2019/04/monitor-prometheus-misc/</guid>
+      <description> check Prometheus configuration
+get prometheus -n ns-monitor monitor-prometheus-operato-prometheus -o yaml  check operator log
+kubectl logs -n ns-monitor -f deployment/monitor-prometheus-operato-operator  check operator yaml
+kubectl -n ns-monitor get deployment/monitor-prometheus-operato-operator -o yaml  proxy prometheus
+kubectl -n ns-monitor port-forward svc/monitor-prometheus-operato-prometheus 9090  </description>
+    </item>
     
     <item>
       <title>Issue   Websocket Closed</title>
